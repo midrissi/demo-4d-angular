@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
   private ds: Catalog;
   public users: IUser[] = [];
   public displayedColumns: string[] = ['id', 'firstname', 'lastname'];
-  public pageSize = 40;
+  public pageSize = 5;
   public length = 0;
 
   constructor(private readonly service: RemoteService) {}
